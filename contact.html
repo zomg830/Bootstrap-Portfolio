@@ -9,30 +9,53 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="hover.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Matt Faubel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
-          </div>
-        </div>
-    </nav>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Matt Faubel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active hvr-pop" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link hvr-pop" href="portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link hvr-pop" href="contact.html">Contact</a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Additional Links
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://www.seekingalpha.com" target="_blank">Seeking Alpha</a>
+              <a class="dropdown-item" href="https://www.oilprice.com" target="_blank">OilPrice.com</a>
+              <a class="dropdown-item" href="https://www.w3schools.com/" target="_blank">w3schools.com</a>
+              <a class="dropdown-item" href="https://www.reddit.com/r/financialindependence" target="_blank">Reddit FI/RE</a>
+            </div>
+          </li>
+      </div>
+    </div>
+</nav>
+<!--End of Navbar-->
 
-    Contact page
+<div class="contact">
+<p>GitHub: <a href="https://github.com/zomg830">zomg830</a></p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/matthew-faubel-1232a857">Matt Faubel</a></p>
+<p>Gmail: <a href="mailto:matt.faubel@gmail.com">matt.faubel@gmail.com</a></p>      
+</div>
+
+<!--Sticky footer-->
     <footer class="footer">
       <div id="github">
-        <a href="https://www.github.com/zomg830" target="_blank"><i class="fab fa-github fa-lg"></i></a> 
-        <a href="https://www.linkedin.com/in/matthew-faubel-1232a857" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
-        <a href="https://www.facebook.com/matthew.faubel" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
+        <a href="https://www.github.com/zomg830" target="_blank"><i class="fab fa-github fa-lg hvr-pulse-grow"></i></a> 
+        <a href="https://www.linkedin.com/in/matthew-faubel-1232a857" target="_blank"><i class="fab fa-linkedin fa-lg hvr-pulse-grow"></i></a>
+        <a href="https://www.facebook.com/matthew.faubel" target="_blank"><i class="fab fa-facebook-f fa-lg hvr-pulse-grow"></i></a>
     </div>
     </footer>
+<!--End of Footer-->
+
 </body>
 </html>
