@@ -40,3 +40,26 @@ body {
 #github a:visited{
     color:lightblue;
 }
+
+.hvr-underline-from-center:before{
+    background:white;
+}
+
+.dropdown-item:hover{
+    background-color:lightgray;
+}
+
+#headshot{
+    width:25%;
+    height:auto;
+}
+
+/* .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button.btn {
+    margin-top: auto;
+    bottom:0;
+  } */
