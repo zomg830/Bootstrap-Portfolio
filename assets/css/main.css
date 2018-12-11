@@ -54,12 +54,10 @@ body {
     height:auto;
 }
 
-/* .card-body {
-    display: flex;
-    flex-direction: column;
+
+.card-body {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
   }
   
-  button.btn {
-    margin-top: auto;
-    bottom:0;
-  } */
