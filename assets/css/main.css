@@ -25,14 +25,14 @@ body {
 }
 
 
-#github{
-    text-align:center;
+#github a{
+    justify-content: space-evenly;
+    align-content: center;
+    vertical-align: middle;
+    margin-left:0.75vw;
+    margin-right:0.75vw;
 }
 
-#github i{
-    font-size:3.0vw;
-    letter-spacing: 1.5em;
-}
 
 #github a:link{
     color:lightblue;
